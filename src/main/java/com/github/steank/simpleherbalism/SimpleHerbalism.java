@@ -4,7 +4,13 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * The main entrypoint of the mod which performs initialization tasks.
+ */
 public class SimpleHerbalism implements ModInitializer {
+	/**
+	 * The mod ID.
+	 */
 	public static final String MOD_ID = "simpleherbalism";
 
 	// This logger is used to write text to the console and the log file.
