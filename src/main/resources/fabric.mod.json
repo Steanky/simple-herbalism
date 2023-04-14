@@ -1,17 +1,11 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "simpleherbalism",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
-  "authors": [
-    "Me!"
-  ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
+  "name": "Simple Herbalism",
+  "description": "A simple mod about doing more stuff with flowers and herbs.",
+  "authors": [],
 
   "license": "CC0-1.0",
   "icon": "assets/modid/icon.png",
@@ -19,11 +13,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.github.steank.simpleherbalism.SimpleHerbalism"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "simpleherbalism.mixins.json"
   ],
 
   "depends": {
